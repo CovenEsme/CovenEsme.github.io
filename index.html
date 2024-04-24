@@ -1,1 +1,425 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Esme's Webspace</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="extras/ace.css"/>
+    <link rel="stylesheet" href="extras/anim-style.css">
+  </head>
+  <body>
+    <header id="top">
+      <h1 class="sr-only">Esme's Webspace</h1>
+      <h1 aria-hidden="true">Esme's Websp<span class="ace">ace</span></h1>
+    </header>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#whoami">Who am I?🪄</a>
+        <a href="#projects">Concoctions⚗️</a>
+        <a href="#socials">Communication💬</a>
+      </div>
+    </nav>
+    <main>
+      <div class="sr-only">
+        <p>$ curl https://covenesme.github.io</p>
+        <p>Esme, she/her.
+           Webspace: <a href="https://covenesme.github.io"
+                        tabindex="-1">covenesme.github.io</a>;
+           Email: <a href="mailto:elisabeth.morgan@disroot.org"
+                     tabindex="-1">elisabeth.morgan@disroot.org</a>;
+           Code: <a href="https://github.com/CovenEsme"
+                    tabindex="-1">github.com/CovenEsme</a>
+        </p>
+      </div>
+      <div class="terminal" aria-hidden="true">
+        <div class="term-command">
+          <p>
+            <span>$ </span>
+            <span id="term-green">
+              <span id="term-char-0">c</span>
+              <span id="term-char-1">u</span>
+              <span id="term-char-2">r</span>
+              <span id="term-char-3">l</span>
+            </span>
+            <span id="term-char-4">&#xA0;</span>
+            <span id="term-char-5">h</span>
+            <span id="term-char-6">t</span>
+            <span id="term-char-7">t</span>
+            <span id="term-char-8">p</span>
+            <span id="term-char-9">s</span>
+            <span id="term-char-10">:</span>
+            <span id="term-char-11">/</span>
+            <span id="term-char-12">/</span>
+            <span id="term-char-13">c</span>
+            <span id="term-char-14">o</span>
+            <span id="term-char-15">v</span>
+            <span id="term-char-16">e</span>
+            <span id="term-char-17">n</span>
+            <span id="term-char-18">e</span>
+            <span id="term-char-19">e</span>
+            <span id="term-char-20">s</span>
+            <span id="term-char-21">m</span>
+            <span id="term-char-22">e</span>
+            <span id="term-char-23">.</span>
+            <span id="term-char-24">g</span>
+            <span id="term-char-25">i</span>
+            <span id="term-char-26">t</span>
+            <span id="term-char-27">h</span>
+            <span id="term-char-28">u</span>
+            <span id="term-char-29">b</span>
+            <span id="term-char-30">.</span>
+            <span id="term-char-31">i</span>
+            <span id="term-char-32">o</span>
+            <span id="term-char-33">&#x2588;</span>
+          </p>
+        </div>
+        <div class="term-output">
+          <p>Esme ✨</p>
+          <p>~~~~~~~~</p>
+          <p>Pronouns:  she/her</p>
+          <p>Webspace:  <a href="https://covenesme.github.io">covenesme.github.io</a></p>
+          <p>Email:     <a href="mailto:elisabeth.morgan@disroot.org">elisabeth.morgan@disroot.org</a></p>
+          <p>Code:      <a href="https://github.com/CovenEsme">github.com/CovenEsme</a></p>
+          <p><br></p>
+        </div>
+        <div class="term-newline">
+          <p><span>$ </span><span id="term-insert">&#x2588;</span></p>
+        </div>
+      </div>
+      <div class="sections">
+        <div class="section" id="whoami">
+          <div class="content">
+            <h2>What I'm all about</h2>
+            <div class="sub-content-container">
+              <div class="sub-content">
+                <div class="hi-link">
+                  <h3>
+                    <a href="https://www.hellointernet.fm/podcast/31">
+                      An enigma
+                    </a>
+                  </h3>
+                </div>
+                <p>
+                  Hi! I'm Esme, a techy software developer and CompSci/HCI
+                  graduate. I have a bunch of scattered computer-y projects
+                  which have a loose front-end correlation. This isn't too
+                  surprising as I have
+                  <a href="#accessibility">several visual quirks</a>
+                  so front-end accessibility is both fun and personally useful
+                  to practice.
+                </p>
+                <p>
+                  In general, my
+                  <a href="#projects">concoctions</a>
+                  usually have at least one overly specific, fun and/or
+                  ridiculous feature that has no right existing but does anyway.
+                  See the above 'terminal'* output (if you are able and your
+                  <a href="#no-javascript">browser supports it</a>
+                  :p). Depending on how long it's been since I've "finished"
+                  this webspace (like all my concoctions, it will never truly be
+                  finished), it will probably have many of these silly features.
+                  This is my playground for all things chaotic; please, enjoy
+                  your stay xD
+                </p>
+                <p>
+                  *(This command used to work but self-hosting a simple website
+                  is frustratingly difficult on a budget. Domestic IP addresses
+                  aren't static anymore and the scripts I had to detect and
+                  update the DNS became too fragile for me to maintain)
+                </p>
+              </div>
+              <div class="sub-content">
+                <h3>Curiosity</h3>
+                <p>
+                  Humans are weird and the realm of human interests is seemingly
+                  infinite. Below are subsets of my interests and disinterests
+                  (Is this even a word? If not; it should be!)
+                </p>
+                <p>Interests:</p>
+                <ul>
+                  <li>Free, ethical and open source software</li>
+                  <li>Linux-y tips, tricks and customization</li>
+                  <li>Wetware: channels and sensors, and brains, oh my!</li>
+                  <li>Cool maths tricks</li>
+                  <li>Video game speedrunning</li>
+                </ul>
+                <p>Disinterests:</p>
+                <ul>
+                  <li>Bad user interfaces :(</li>
+                  <li>Unsolicited opinions</li>
+                  <li>Macro / Broad / Systemic political discussion</li>
+                  <ul>
+                    <li>
+                      Guaranteed to make me feel sad and/or depressed
+                    </li>
+                  </ul>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="projects">
+          <div class="content">
+            <h2>Sugar and spice and all things nice</h2>
+            <div class="sub-content-container">
+              <div class="sub-content">
+                <h3>A Link Between Worlds Randomizer Tracker</h3>
+                <p id="project-link">
+                  <a href="https://github.com/covenesme/albw-tracker">
+                    github.com/covenesme/albw-tracker
+                  </a>
+                </p>
+                <div class="project">
+                  <div class="text">
+                    <p>
+                      An item, gear and soon to be location tracker for the
+                      <a href="https://gitlab.com/marsolk/albw-randomizer-cli">
+                        ALBW randomizer
+                      </a>.
+                      Built using React, it can be used with a much larger
+                      range of devices than more the traditional Windows
+                      desktop applications.
+                    </p>
+                    <p>
+                      This project exists because I wanted to play the
+                      randomizer without needing to either rely on my memory or
+                      sit at my desk. It's not a perfect solution (requiring an
+                      Internet connection) but it suits my needs better than the
+                      alternatives. I might even get to use it casually one day~
+                    </p>
+                    <p>
+                      <a href="https://covenesme.github.io/albw-tracker/">
+                        Try it out now!
+                      </a>
+                    </p>
+                  </div>
+                  <div class="project-image" id="albw-image">
+                    <a href="https://covenesme.github.io/albw-tracker/">
+                      <img src="assets/albw-tracker.png"
+                           alt="Close-up of the gear menu from The Legend of
+                                Zelda: A Link Between Worlds as shown in my ALBW
+                                tracker project.">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="sub-content">
+                <h3>Lifeviewer</h3>
+                <p id="project-link">
+                  <a href="https://github.com/lysabeph/lifeviewer">
+                    github.com/lysabeph/lifeviewer
+                  </a>
+                </p>
+                <div class="project">
+                  <div class="text">
+                    <p>
+                      Lifeviewer is an Instagram-esque android app for viewing
+                      and filtering lifelogging images. It is written in Java
+                      and was created as one part of my final project in
+                      university.
+                    </p>
+                    <p>
+                      Lifelogging is the process of recording one's daily life
+                      as a comprehensive dataset of activity. This is typically
+                      done with video cameras.
+                    </p>
+                    <p>
+                      <a href="https://en.wikipedia.org/wiki/Lifelog">
+                        Click to view the Wikipedia page about Lifelogs
+                      </a>
+                    </p>
+                  </div>
+                  <div class="project-image" id="lifeviewer-image">
+                    <a href="https://github.com/lysabeph/lifeviewer">
+                      <img src="assets/lifeviewer.png"
+                           alt="Two emulated smartphones. Both show different
+                                tabs of the same 'Instagram style' android app.
+                                The left shows a 'gallery' tab with two stock
+                                photos in a column. Below the first are two
+                                buttons: a red heart and an empty speech bubble.
+                                The second is only partially visible. The right
+                                device shows a 'highlights' tab with two
+                                different stock photos. Both photos have the
+                                same two buttons below them.">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="sub-content">
+                <h3>SPICA - 🚧 WIP Fork 🚧</h3>
+                <p id="project-link">
+                  <a href="https://github.com/covenesme/spica">
+                    github.com/covenesme/spica
+                  </a>
+                </p>
+                <div class="project">
+                  <div class="text">
+                    <p>
+                      SPICA is an experimental H3D tool written in C# by
+                      <a href="https://github.com/gdkchan">gdkchan</a>.
+                      Specifically, this is a fork of a fork of that original
+                      project. This version is meant to be used for handling the
+                      BCH files that ALBW uses for it's assets.
+                    </p>
+                    <p>
+                      Currently, it is not feature complete in a way that allows
+                      for model editing (the main goal of the project). At some
+                      point in the future, I may add a webpage here describing
+                      the key parts of the project that need to be modified or
+                      implemented in order for this tool to be useful for the
+                      ALBW modding community.
+                    </p>
+                  </div>
+                  <div class="project-image" id="spica-image">
+                    <a href="https://github.com/covenesme/spica">
+                      <img src="assets/spica.png"
+                           alt="A computer program displaying a model for a
+                                video game shield on a canvas spanning from the
+                                left side and taking up 75% of the display. The
+                                right side shows many small icons in a row with
+                                a list of models below.">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="sub-content">
+                <h3>I.A.N.</h3>
+                <p id="project-link">
+                  <a href="https://github.com/lysabeph/project-ian">
+                    github.com/lysabeph/project-ian
+                  </a>
+                </p>
+                <div class="project">
+                  <div class="text">
+                    <p>
+                      I.A.N. (or Project I.A.N.) is a predictive application
+                      launcher for Linux written in Python and BASH. It matches
+                      app launch frequency with the hour of launch by using
+                      mathematical sets.
+                    </p>
+                    <p>
+                      I wrote this project in 2017 and there is a <i>lot</i>
+                      that I would change now. Despite that, I still have a soft
+                      spot in my heart for this project. It uses a custom
+                      algorithm to map the hours of the day on to a set of 24
+                      discrete items for statistical analysis. There's something
+                      about spending hours manipulating sets using a wipeboard
+                      on my bedroom wall that <i>really</i> excited my neurons.
+                    </p>
+                    <p>
+                      I wouldn't recommend anyone actually try using this
+                      application but I like it enough to keep it around after
+                      all these years.
+                    </p>
+                  </div>
+                  <div class="project-image" id="ian-image">
+                    <a href="https://github.com/lysabeph/project-ian">
+                      <img src="assets/ian.png"
+                           alt="A program with a box labelled 'Recommendations'
+                                that fills the top-most 75% of the display. The
+                                box contains several long, thin, horizontal
+                                buttons, each with the name of a different
+                                computer program displayed in the middle of
+                                them. Below the box, there is: a gear icon in
+                                the bottom left, a label that says 'Run'
+                                followed by a text entry box in the bottom
+                                right. The text entry box has the text 'Enter a
+                                Command' in a translucent font within the box.
+                                It also has a drop down button next to it">
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="socials">
+          <div class="content">
+            <h2>Locating the elusive</h2>
+            <div class="sub-content-container">
+              <div class="sub-content" id="geographical">
+                <h3>Going <s aria-hidden="true">Postal</s> Global</h3>
+                <p>
+                  I was born (and still live) in the UK. For half of the year, I
+                  get to live in the objectively* best timezone: GMT (and it's
+                  evil twin BST) ;p
+                </p>
+                <p>
+                  Unfortunately, the clacks haven't found there way to my neck
+                  of the woods yet. As a result, please consult the next section
+                  for alternatives.
+                </p>
+                <p>
+                  *(there are no good timezones - we are all trapped by the sun's
+                  orbit and the chaos that brings 🔥🔥🔥)
+                </p>
+              </div>
+              <div class="sub-content" id="interwebs">
+                <h3>The Interwebs</h3>
+                <p>
+                  For the humble stranger wishing to contact me, my email is
+                  the place to start. You can reach me at
+                  <a href="mailto:elisabeth.morgan@disroot.org">
+                    elisabeth.morgan@disroot.org
+                  </a> :)
+                </p>
+                <p>
+                  For those more familiar with who I am, you can find me on
+                  Discord as
+                  <a href="https://discord.gg">covenesme</a> :p
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section" id="misc">
+          <div class="content">
+            <h2>Odds and Ends</h2>
+            <div class="sub-content-container">
+              <div class="sub-content" id="no-javascript">
+                <h3>Wait, no JavaScript?!?!</h3>
+                <p>
+                  For a relatively simple website like this, there is no reason
+                  why it couldn't be created using only HTML and CSS. Not only
+                  that, it creates a fun challenge to see what silly things I
+                  can create under this restriction!
+                </p>
+                <p>
+                  Philosophically speaking, I think that JavaScript is over used
+                  in places where it shouldn't be. As a reasonably privacy and
+                  security conscious person, I don't have JavaScript enable by
+                  default on my web browsers. <i>So</i> many websites simply
+                  load a blank page if JavaScript isn't an option - making them
+                  completely inaccessible in these cases. This bothers me
+                  (perhaps more than it should) so I decided to skip out on
+                  using it for my webspace.
+                </p>
+              </div>
+              <div class="sub-content" id="accessibility">
+                <h3>Accessibility</h3>
+                <p>
+                  For most people, accessibility is that section in the settings
+                  menu that has a bunch of weird and strange toggles, dials and
+                  sliders. Oh, and it has the dark mode toggle hidden in there
+                  for some reason /s. For me, it's a treasure trove of fun and
+                  useful features that enhance and improve computer devices.
+                </p>
+                <p>
+                  I've needed glasses since before I was in school. I have an
+                  astigmatism and I'm colour deficient (nothing too fun - just
+                  deuteranopia). No, you can't try on my glasses but I'll talk to
+                  you for ages about cool eye stuff.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="to-top">
+        <a id="to-top" href="#top" tabindex="-1">⬆️</a>
+      </div>
+    </footer>
+  </body>
+</html>

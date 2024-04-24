@@ -1,0 +1,271 @@
+@font-face {
+  font-family: Basteleur;
+  src: url("assets/basteleur-bold.woff2"),
+       url("assets/basteleur-bold.woff"),
+       url("assets/basteleur-bold.ttf");
+}
+
+@font-face {
+  font-family: Compagnon;
+  src: url("assets/compagnon-roman.woff2"),
+       url("assets/compagnon-roman.woff"),
+       url("assets/compagnon-roman.otf");
+}
+
+@font-face {
+  font-family: GelbeErika;
+  size-adjust: 125%;
+  src: url("assets/gelbe-erika-calligraphr.ttf");
+}
+
+body {
+  background: #100c08;
+	background-image: linear-gradient(#280137, #100c08);
+  background-repeat: no-repeat;
+  padding: 1vh 1vw;
+}
+
+
+/* Start nav, footer */
+nav {
+    font-size: 1.2rem;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8),
+                0 6px 20px 0 rgba(0, 0, 0, 0.76);
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+nav a, footer a {
+  font-size: 2rem;
+  font-family: Compagnon;
+  color: #f10385;
+  text-decoration: none;
+  text-shadow: 0 0 1px black;
+  text-align: center;
+  word-break: break-all;
+}
+
+nav a:hover, footer a:hover {
+  text-shadow: 0 0 1px #f10385, 0 0 1px #f10385;
+}
+
+footer {
+  display: flex;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+}
+
+.to-top {
+  margin-left: auto;
+  margin-right: 1vh;
+  margin-bottom: 1vh;
+}
+/* End nav, footer */
+
+/* f10385 */
+a {
+  color: #faa1d1;
+}
+
+a:hover, :focus {
+  text-decoration: none;
+  outline-style: dashed;
+  outline-width: medium;
+}
+
+
+/* Start header, h2, h3, h4 */
+header, h2, h3, h4 {
+  font-family: Basteleur;
+  text-align: center;
+  color: #f10385;
+  word-wrap: break-word;
+}
+
+header {
+  font-size: 3rem;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+h4 {
+  font-size: 0.8rem;
+}
+/* End header, h2, h3, h4 */
+
+
+/* Start div */
+.sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  background-color: #600d39;
+  border-radius: 8px;
+  padding: 1vh;
+  margin: 1vh;
+}
+
+#misc {
+  background-image: url("assets/omori-headspace-background.png");
+  background-repeat: repeat;
+  border-style: solid;
+  border-color: black;
+}
+
+.content {
+  padding: 1vh;
+}
+
+.sub-content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.sub-content, h2 {
+  background-color: #18021a;
+  border-radius: 10px;
+  padding: 2vh;
+  margin: 1vh;
+}
+
+#misc .sub-content, #misc h2 {
+  border-color: white;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project div {
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+
+.project-image a {
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.project-image img {
+  width: 50ch;
+  max-height: 100vh;
+  max-width: 100vh;
+  vertical-align: bottom;
+}
+/* End div */
+
+
+/* Start p, li, s */
+#project-link {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content p, .content li {
+  max-width: 50ch;
+}
+
+p, li {
+  font-family: GelbeErika;
+  font-size: 1.2rem;
+  text-align: left;
+  line-height: 1.5;
+  color: #f10385;
+  word-break: break-word;
+}
+
+s {
+  text-decoration-thickness: 0.2rem;
+}
+/* End p, li, s */
+
+
+/* Start terminal */
+.terminal {
+  background-color: black;
+  padding: 1.1rem;
+  border-radius: 10px;
+  font-family: monospace;
+  font-size: 1.2rem;
+  margin: 4vh auto;
+  max-width: 800px;
+}
+
+.term-command p {
+  font-family: monospace;
+  font-size: 0;
+  color: white;
+}
+
+#term-green {
+  font-family: monospace;
+  font-size: 0;
+  color: #00CD00;
+}
+
+.term-command span, #term-green span {
+  font-size: 1.2rem;
+  position: relative;
+}
+
+#term-char-33 {
+  font-size: 0;
+  color: black;
+}
+
+.term-output a {
+  color: white;
+  text-decoration: none;
+  word-break: break-all;
+}
+
+.term-output a:hover {
+  text-decoration: underline;
+  outline-style: none;
+}
+
+.term-newline p, .term-output p {
+  font-family: monospace;
+  color: white;
+  margin: 0;
+}
+/* End terminal */
+
+
+.sr-only {
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}

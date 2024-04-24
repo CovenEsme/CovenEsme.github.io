@@ -1,0 +1,5 @@
+.ace {
+  background: linear-gradient(black, black, gray, white, purple, purple);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
