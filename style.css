@@ -1,16 +1,16 @@
 @font-face {
   font-family: Basteleur;
   src: url("assets/basteleur-bold.woff2"),
-       url("assets/basteleur-bold.woff"),
-       url("assets/basteleur-bold.ttf");
+    url("assets/basteleur-bold.woff"),
+    url("assets/basteleur-bold.ttf");
   font-display: swap;
 }
 
 @font-face {
   font-family: Compagnon;
   src: url("assets/compagnon-roman.woff2"),
-       url("assets/compagnon-roman.woff"),
-       url("assets/compagnon-roman.otf");
+    url("assets/compagnon-roman.woff"),
+    url("assets/compagnon-roman.otf");
   font-display: swap;
 }
 
@@ -23,7 +23,7 @@
 
 body {
   background: #100c08;
-	background-image: linear-gradient(#280137, #100c08);
+  background-image: linear-gradient(#280137, #100c08);
   background-repeat: no-repeat;
   padding: 1vh 1vw;
 }
@@ -31,11 +31,11 @@ body {
 
 /* Start nav, footer */
 nav {
-    font-size: 1.2rem;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8),
-                0 6px 20px 0 rgba(0, 0, 0, 0.76);
+  font-size: 1.2rem;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.8),
+    0 6px 20px 0 rgba(0, 0, 0, 0.76);
 }
 
 .nav-wrapper {
@@ -44,7 +44,8 @@ nav {
   flex-wrap: wrap;
 }
 
-nav a, footer a {
+nav a,
+footer a {
   font-size: 2rem;
   font-family: Compagnon;
   color: #f10385;
@@ -54,7 +55,8 @@ nav a, footer a {
   word-break: break-all;
 }
 
-nav a:hover, footer a:hover {
+nav a:hover,
+footer a:hover {
   text-shadow: 0 0 1px #f10385, 0 0 1px #f10385;
 }
 
@@ -72,6 +74,7 @@ footer {
   margin-right: 1vh;
   margin-bottom: 1vh;
 }
+
 /* End nav, footer */
 
 /* f10385 */
@@ -79,7 +82,8 @@ a {
   color: #faa1d1;
 }
 
-a:hover, :focus {
+a:hover,
+:focus {
   text-decoration: none;
   outline-style: dashed;
   outline-width: medium;
@@ -87,7 +91,10 @@ a:hover, :focus {
 
 
 /* Start header, h2, h3, h4 */
-header, h2, h3, h4 {
+header,
+h2,
+h3,
+h4 {
   font-family: Basteleur;
   text-align: center;
   color: #f10385;
@@ -101,6 +108,7 @@ header {
 
 h2 {
   font-size: 2rem;
+  width: 95%;
 }
 
 h3 {
@@ -110,6 +118,7 @@ h3 {
 h4 {
   font-size: 0.8rem;
 }
+
 /* End header, h2, h3, h4 */
 
 
@@ -135,24 +144,33 @@ h4 {
 
 .content {
   padding: 1vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sub-content-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: flex-start;
-  align-content: flex-start;
 }
 
-.sub-content, h2 {
+.sub-content,
+h2 {
   background-color: #18021a;
   border-radius: 10px;
   padding: 2vh;
-  margin: 1vh;
+  margin: 1vh 2vh;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  align-items: center;
+  max-width: 1000px;
 }
 
-#misc .sub-content, #misc h2 {
+#misc .sub-content,
+#misc h2 {
   border-color: white;
 }
 
@@ -179,6 +197,7 @@ h4 {
   max-width: 100vh;
   vertical-align: bottom;
 }
+
 /* End div */
 
 
@@ -189,11 +208,13 @@ h4 {
   margin-right: auto;
 }
 
-.content p, .content li {
+.content p,
+.content li {
   max-width: 50ch;
 }
 
-p, li {
+p,
+li {
   font-family: GelbeErika;
   font-size: 1.2rem;
   text-align: left;
@@ -205,6 +226,7 @@ p, li {
 s {
   text-decoration-thickness: 0.2rem;
 }
+
 /* End p, li, s */
 
 
@@ -216,6 +238,7 @@ s {
   font-family: monospace;
   font-size: 1.2rem;
   margin: 4vh auto;
+  margin-bottom: 1vh;
   max-width: 800px;
 }
 
@@ -231,7 +254,8 @@ s {
   color: #00CD00;
 }
 
-.term-command span, #term-green span {
+.term-command span,
+#term-green span {
   font-size: 1.2rem;
   position: relative;
 }
@@ -252,11 +276,13 @@ s {
   outline-style: none;
 }
 
-.term-newline p, .term-output p {
+.term-newline p,
+.term-output p {
   font-family: monospace;
   color: white;
   margin: 0;
 }
+
 /* End terminal */
 
 

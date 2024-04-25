@@ -1,42 +1,34 @@
 /* Start section background animation */
 @keyframes section-background-scroll {
-  0%   { background-position: 1023px; }
-  100% { background-position: -1023px; }
+  0% {
+    background-position: 1023px;
+  }
+
+  100% {
+    background-position: -1023px;
+  }
 }
 
 #misc {
   animation: section-background-scroll 90s linear infinite;
 }
+
 /* End section background animation */
 
 
 /* Start terminal animations */
-.terminal {
-  background-color: black;
-  padding: 1.1rem;
-  border-radius: 10px;
-  font-family: monospace;
-  font-size: 1.2rem;
-  margin: 4vh auto;
-  max-width: 800px;
-}
-
-.term-command p {
-  font-family: monospace;
-  font-size: 0;
-  color: white;
-}
-
-.term-command span {
-  font-size: 1.2rem;
-  position: relative;
-}
-
-
 @keyframes cmd-green {
-  0%   { color: white; }
-  1%   { color: #00CD00; }
-  100% { color: #00CD00; }
+  0% {
+    color: white;
+  }
+
+  1% {
+    color: #00CD00;
+  }
+
+  100% {
+    color: #00CD00;
+  }
 }
 
 #term-green {
@@ -49,9 +41,17 @@
 
 
 @keyframes set-visible {
-  0%   { visibility: hidden; }
-  1%   { visibility: visible; }
-  100% { visibility: visible; }
+  0% {
+    visibility: hidden;
+  }
+
+  1% {
+    visibility: visible;
+  }
+
+  100% {
+    visibility: visible;
+  }
 }
 
 .term-output p {
@@ -89,10 +89,21 @@
 
 
 @keyframes flash {
-  0%   { visibility: visible; }
-  50%  { visibility: hidden; }
-  99%  { visibility: hidden; }
-  100% { visibility: visible; }
+  0% {
+    visibility: visible;
+  }
+
+  50% {
+    visibility: hidden;
+  }
+
+  99% {
+    visibility: hidden;
+  }
+
+  100% {
+    visibility: visible;
+  }
 }
 
 #term-insert {
@@ -370,9 +381,17 @@
 
 
 @keyframes flash-visible {
-  0%   { visibility: visible; }
-  99%  { visibility: visible; }
-  100% { visibility: hidden; }
+  0% {
+    visibility: visible;
+  }
+
+  99% {
+    visibility: visible;
+  }
+
+  100% {
+    visibility: hidden;
+  }
 }
 
 #term-char-33 {
@@ -381,4 +400,5 @@
   animation-delay: 3.3s;
   animation-duration: 0.2s;
 }
+
 /* End terminal animations */
