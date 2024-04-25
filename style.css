@@ -125,7 +125,7 @@ h4 {
 }
 
 #misc {
-  background-image: url("assets/omori-headspace-background.png");
+  background-image: url("assets/omori-headspace-background.png"), url("assets/omori-headspace-background.webp");
   background-repeat: repeat;
   border-style: solid;
   border-color: black;
