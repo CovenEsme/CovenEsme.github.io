@@ -3,6 +3,7 @@
   src: url("assets/basteleur-bold.woff2"),
        url("assets/basteleur-bold.woff"),
        url("assets/basteleur-bold.ttf");
+  font-display: optional;
 }
 
 @font-face {
@@ -10,12 +11,14 @@
   src: url("assets/compagnon-roman.woff2"),
        url("assets/compagnon-roman.woff"),
        url("assets/compagnon-roman.otf");
+  font-display: optional;
 }
 
 @font-face {
   font-family: GelbeErika;
   size-adjust: 125%;
   src: url("assets/gelbe-erika-calligraphr.ttf");
+  font-display: optional;
 }
 
 body {
@@ -126,8 +129,7 @@ h4 {
 
 #misc {
   background-image: url("assets/omori-headspace-background.png"), url("assets/omori-headspace-background.webp");
-  background-repeat: repeat;
-  border-style: solid;
+  background-repeat: repeawebp border-style: solid;
   border-color: black;
 }
 
