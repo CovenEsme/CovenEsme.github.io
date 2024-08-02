@@ -57,7 +57,7 @@
 .term-output p {
   visibility: hidden;
   animation-name: set-visible;
-  animation-delay: 3.3s;
+  animation-delay: 3.8s;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   font-family: monospace;
@@ -80,7 +80,7 @@
 .term-newline p {
   visibility: hidden;
   animation-name: set-visible;
-  animation-delay: 3.4s;
+  animation-delay: 3.9s;
   animation-duration: 1s;
   animation-fill-mode: forwards;
   font-family: monospace;
@@ -110,7 +110,7 @@
   visibility: hidden;
   animation-name: flash;
   animation-duration: 1.5s;
-  animation-delay: 3.5s;
+  animation-delay: 4.0s;
   animation-fill-mode: forwards;
   animation-iteration-count: 5;
 }
@@ -379,6 +379,45 @@
   animation-fill-mode: forwards;
 }
 
+#term-char-33 {
+  visibility: hidden;
+  animation-name: set-visible;
+  animation-delay: 3.3s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#term-char-34 {
+  visibility: hidden;
+  animation-name: set-visible;
+  animation-delay: 3.4s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#term-char-35 {
+  visibility: hidden;
+  animation-name: set-visible;
+  animation-delay: 3.5s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#term-char-36 {
+  visibility: hidden;
+  animation-name: set-visible;
+  animation-delay: 3.6s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+#term-char-37 {
+  visibility: hidden;
+  animation-name: set-visible;
+  animation-delay: 3.7s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
 
 @keyframes flash-visible {
   0% {
@@ -394,10 +433,10 @@
   }
 }
 
-#term-char-33 {
+#term-char-38 {
   visibility: hidden;
   animation-name: flash-visible;
-  animation-delay: 3.3s;
+  animation-delay: 3.8s;
   animation-duration: 0.2s;
 }
 
