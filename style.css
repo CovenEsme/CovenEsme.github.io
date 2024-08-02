@@ -130,7 +130,7 @@ h4 {
 }
 
 .section {
-  background-color: #600d39;
+  background-color: #8a0d39;
   border-radius: 8px;
   padding: 1vh;
   margin: 1vh;
@@ -138,7 +138,8 @@ h4 {
 
 #misc {
   background-image: url("assets/omori-headspace-background.png"), url("assets/omori-headspace-background.webp");
-  background-repeat: repeawebp border-style: solid;
+  background-repeat: repeat;
+  border-style: solid;
   border-color: black;
 }
 
@@ -206,6 +207,7 @@ h2 {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
+  margin-top: -2vh;
 }
 
 .content p,
