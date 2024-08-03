@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
   font-family: Basteleur;
   src: url("assets/basteleur-bold.woff2"),
     url("assets/basteleur-bold.woff"),
@@ -19,7 +19,7 @@
   size-adjust: 125%;
   src: url("assets/gelbe-erika-calligraphr.ttf");
   font-display: block;
-}
+} */
 
 body {
   background: #100c08;
