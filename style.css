@@ -193,6 +193,7 @@ h2 {
 }
 
 .project-image img {
+  height: auto;
   width: 50ch;
   max-height: 100%;
   max-width: 100%;
@@ -313,6 +314,7 @@ s {
 }
 
 .sword-flip img {
+  height: auto;
   width: 50ch;
   max-height: 100%;
   max-width: 100%;
