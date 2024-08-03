@@ -194,8 +194,8 @@ h2 {
 
 .project-image img {
   width: 50ch;
-  max-height: 100vh;
-  max-width: 100vh;
+  max-height: 100%;
+  max-width: 100%;
   vertical-align: bottom;
 }
 
@@ -313,8 +313,9 @@ s {
 }
 
 .sword-flip img {
-  max-height: 100vh;
-  max-width: 100vh;
+  width: 50ch;
+  max-height: 100%;
+  max-width: 100%;
   vertical-align: bottom;
 }
 
